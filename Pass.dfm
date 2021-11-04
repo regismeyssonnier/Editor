@@ -43,10 +43,13 @@ object Form1: TForm1
       Caption = 'Fi&chier'
       object Ouvrir1: TMenuItem
         Caption = '&Ouvrir'
+        ShortCut = 16463
         OnClick = Ouvrir1Click
       end
       object OuvrirFichier1: TMenuItem
         Caption = 'Ou&vrir Fichier'
+        ShortCut = 16454
+        OnClick = OuvrirFichier1Click
       end
       object N1: TMenuItem
         Caption = '-'
@@ -60,13 +63,41 @@ object Form1: TForm1
       Caption = '&Edition'
       object trouver1: TMenuItem
         Caption = '&Trouver'
+        ShortCut = 16468
         OnClick = trouver1Click
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object gmaildown1: TMenuItem
+        Caption = 'gmail down'
+        ShortCut = 16455
+        OnClick = gmaildown1Click
+      end
+      object gmailup1: TMenuItem
+        Caption = 'gmail up'
+        ShortCut = 49223
+        OnClick = gmailup1Click
+      end
+      object N4: TMenuItem
+        Caption = '-'
+      end
+      object hotmaildown1: TMenuItem
+        Caption = 'hotmail down'
+        ShortCut = 16456
+        OnClick = hotmaildown1Click
+      end
+      object hotmailup1: TMenuItem
+        Caption = 'hotmail up'
+        ShortCut = 49224
+        OnClick = hotmailup1Click
       end
     end
     object N2: TMenuItem
       Caption = '?'
       object Apropos1: TMenuItem
         Caption = '&A propos'
+        ShortCut = 16449
         OnClick = Apropos1Click
       end
     end
@@ -75,5 +106,9 @@ object Form1: TForm1
     OnFind = FindDialog1Find
     Left = 504
     Top = 248
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 368
+    Top = 152
   end
 end
