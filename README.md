@@ -1,5 +1,7 @@
 # Editor
 
-Open a file when the program run
+## 1. How it works
 
-You can open a file in reading only
+Open a **file** 🗄️ when the program run 🏃
+
+You can open a file in **reading only**. 📂
